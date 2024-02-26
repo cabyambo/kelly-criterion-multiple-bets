@@ -5,6 +5,8 @@ use nalgebra::DVector;
 
 fn main() {
     println!("Hello, world!");
+
+    // Probability bet succeeds, win multiplier if bet does succeed.
     let bets_data: Vec<(f64,f64)> = vec![
         (0.3, 12.8), 
         (0.4, 6.4),
